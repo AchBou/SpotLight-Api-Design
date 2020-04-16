@@ -1,0 +1,25 @@
+{
+  "title": "Book",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "genre": {
+      "type": "string"
+    }
+  },
+  "x-tags": [
+    "Models"
+  ],
+  "description": "a Book."
+}

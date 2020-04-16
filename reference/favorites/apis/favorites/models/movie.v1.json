@@ -1,0 +1,31 @@
+{
+  "title": "Movie",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "month": {
+      "type": "number"
+    },
+    "producer": {
+      "type": "string"
+    },
+    "realisator": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    }
+  },
+  "x-tags": [
+    "Models"
+  ],
+  "description": "a Movie."
+}

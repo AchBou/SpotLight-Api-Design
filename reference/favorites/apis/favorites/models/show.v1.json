@@ -1,0 +1,35 @@
+{
+  "title": "Show",
+  "type": "object",
+  "x-examples": {},
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "producer": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "nb_episodes": {
+      "type": "number"
+    },
+    "nb_seasons": {
+      "type": "number"
+    },
+    "launch_date": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    }
+  },
+  "x-tags": [
+    "Models"
+  ],
+  "description": "a TV Show."
+}

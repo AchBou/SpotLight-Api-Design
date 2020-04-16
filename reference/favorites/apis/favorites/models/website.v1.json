@@ -1,0 +1,25 @@
+{
+  "title": "Website",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  },
+  "x-tags": [
+    "Models"
+  ],
+  "description": "a Website."
+}
